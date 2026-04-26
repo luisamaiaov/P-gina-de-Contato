@@ -1,0 +1,20 @@
+/* Serve pra deixar os conteineres visiveis, tirar depois que terminar */
+* {
+  outline: 1px solid red;
+}
+
+.barra_superior{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_central{
+    display: flex;
+    gap: 20px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
