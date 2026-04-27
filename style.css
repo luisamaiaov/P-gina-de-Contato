@@ -5,16 +5,42 @@
 
 .barra_superior{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+.logo{
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
 .menu_central{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
-.banner{
+.menu_direito{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+.icones{
+    width: 16px;
+    height: 16px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.banner{
     margin-top: 70px;
+    max-width: 500px;
+}
+.formulario{
+    margin-top: 70px;
+    max-width: 500px;
 }
