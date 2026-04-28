@@ -38,9 +38,17 @@ main{
 }
 .banner{
     margin-top: 70px;
-    max-width: 500px;
+    max-width: 650px;
+    font-size: 150%;
+    
 }
 .formulario{
-    margin-top: 70px;
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 650px;
+    font-size: 150%;
+}
+.nome_formulario{
+  display: flex;  
 }
