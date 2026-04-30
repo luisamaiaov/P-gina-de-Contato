@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Inter:wght@400;500&display=swap');
+
 body{
     background-color: #E6E4D5;
+    font-family: 'inter', sans-serif;
+    color: #333;
 }
+
+h1, .logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
 .barra_superior{
     display: flex;
     justify-content: space-between;
@@ -53,10 +69,16 @@ form label{
     margin-bottom: 5px;
 }
 
-.nome_formulario{
-  display: flex;  
-  align-items: center;
+.nome_formulario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.nome_formulario div {
+    flex: 1;
+}
+
 
 form input,
 form textarea {
@@ -65,21 +87,13 @@ form textarea {
     height: 40px;
     border: 1px solid #C1BFB9;
     background-color: #FAFAFA;
+    font-family: inherit;
     box-sizing: border-box;
 }
 
 form textarea {
     height: 120px;
     resize: none;
-}
-
-.nome_formulario {
-    display: flex;
-    gap: 10px;
-}
-
-.nome_formulario div {
-    width: 100%;
 }
 
 button {
